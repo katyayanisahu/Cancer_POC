@@ -288,7 +288,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Maroon;
-            this.label3.Location = new System.Drawing.Point(534, 131);
+            this.label3.Location = new System.Drawing.Point(480, 128);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 25);
             this.label3.TabIndex = 42;
@@ -299,7 +299,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Maroon;
-            this.label4.Location = new System.Drawing.Point(546, 199);
+            this.label4.Location = new System.Drawing.Point(480, 211);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(45, 25);
             this.label4.TabIndex = 43;
@@ -310,7 +310,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(546, 274);
+            this.label5.Location = new System.Drawing.Point(490, 283);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(72, 25);
             this.label5.TabIndex = 44;
