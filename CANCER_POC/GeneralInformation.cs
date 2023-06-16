@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace CANCER_POC
 {
-    public partial class AddPatientData : UserControl
+    public partial class GeneralInformation : UserControl
     {
-        public AddPatientData()
+        public GeneralInformation()
         {
             InitializeComponent();
         }
 
-        private void AddPatientData_Load(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }

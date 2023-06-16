@@ -34,14 +34,10 @@ namespace CANCER_POC
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            //EditPatientDetails d = new EditPatientDetails();
-            //MedicalInformation2 d = new MedicalInformation2();
-           
-            //d.Show();
+            EditPatientDetails d = new EditPatientDetails();         
+            d.Show();
 
-            Scrollbar sc = new Scrollbar();
-            sc.Dock = DockStyle.Fill;
-            this.Controls.Add(sc);
+       
         }
     }
 }

@@ -35,7 +35,7 @@
             this.btnTestInfo = new System.Windows.Forms.Button();
             this.btnMedicalInfo = new System.Windows.Forms.Button();
             this.bTNGenInfo = new System.Windows.Forms.Button();
-            this.PanelContainer = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -73,7 +73,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 82);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 566);
+            this.panel2.Size = new System.Drawing.Size(300, 566);
             this.panel2.TabIndex = 5;
             // 
             // btnLogout
@@ -123,13 +123,14 @@
             this.bTNGenInfo.UseVisualStyleBackColor = true;
             this.bTNGenInfo.Click += new System.EventHandler(this.bTNGenInfo_Click);
             // 
-            // PanelContainer
+            // panelContainer
             // 
-            this.PanelContainer.Location = new System.Drawing.Point(306, 82);
-            this.PanelContainer.Name = "PanelContainer";
-            this.PanelContainer.Size = new System.Drawing.Size(883, 566);
-            this.PanelContainer.TabIndex = 6;
-            this.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContainer_Paint);
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(300, 82);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(901, 566);
+            this.panelContainer.TabIndex = 6;
+            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint_1);
             // 
             // EditPatientDetails
             // 
@@ -137,7 +138,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1201, 648);
-            this.Controls.Add(this.PanelContainer);
+            this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "EditPatientDetails";
@@ -159,6 +160,6 @@
         private Button btnTestInfo;
         private Button btnMedicalInfo;
         private Button bTNGenInfo;
-        private FlowLayoutPanel PanelContainer;
+        private Panel panelContainer;
     }
 }

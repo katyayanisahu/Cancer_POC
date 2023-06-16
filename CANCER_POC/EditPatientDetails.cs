@@ -17,11 +17,11 @@ namespace CANCER_POC
             InitializeComponent();
         }
 
-        public Panel PnlContainer
-        {
-            get { return PanelContainer; }
-            set { PanelContainer = (FlowLayoutPanel)value; }
-        }
+        //public Panel PnlContainer
+        //{
+        //    get { return PanelContainer; }
+        //    set { PanelContainer = (FlowLayoutPanel)value; }
+        //}
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -36,17 +36,16 @@ namespace CANCER_POC
 
         private void bTNGenInfo_Click(object sender, EventArgs e)
         {
-            var generalInformation=new GeneralInformation { Dock= DockStyle.Fill };
-            PanelContainer.Controls.Add(generalInformation);
+            GeneralInformation gi = new GeneralInformation();
+            gi.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(gi);
 
-            //AddPatientData lg = new AddPatientData();
-            //lg.Show();
+        
         }
 
         private void addPatientData_Click(object sender, EventArgs e)
         {
-            AddPatientData ad = new AddPatientData();
-            ad.Show();
+
         }
 
         private void btnMedicalInfo_Click(object sender, EventArgs e)
@@ -64,26 +63,17 @@ namespace CANCER_POC
             //mi.Dock= DockStyle.Fill;
             //PanelContainer.Controls.Add(mi);
 
-            MedicalInformation1 uc = new MedicalInformation1();
-            uc.Dock = DockStyle.Fill;
-            this.Controls.Add(uc);
+            MedicalInformation1 mi = new MedicalInformation1();
+            mi.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(mi);
         }
 
         private void btnTestInfo_Click(object sender, EventArgs e)
         {
-            TestInformation uc = new TestInformation();
-            uc.Dock = DockStyle.Fill;
-            this.Controls.Add(uc);
+            TestInformation ti = new TestInformation();
+            ti.Dock = DockStyle.Fill;
+            panelContainer.Controls.Add(ti);
 
-           
-            //if (!PanelContainer.Controls.Contains(TestInformation.Instance))
-            //{
-            //    PanelContainer.Controls.Add(TestInformation.Instance);
-            //    TestInformation.Instance.Dock = DockStyle.Fill;
-            //    TestInformation.Instance.BringToFront();
-            //}
-            //else
-            //    TestInformation.Instance.BringToFront();
         }
 
         private void EditPatientDetails_Load(object sender, EventArgs e)
@@ -92,6 +82,11 @@ namespace CANCER_POC
         }
 
         private void PanelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panelContainer_Paint_1(object sender, PaintEventArgs e)
         {
 
         }
