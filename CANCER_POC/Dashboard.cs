@@ -36,5 +36,15 @@ namespace CANCER_POC
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

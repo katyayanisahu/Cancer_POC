@@ -31,12 +31,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.addPatientData = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnLogout = new System.Windows.Forms.Button();
+            this.btnTestInfo = new System.Windows.Forms.Button();
+            this.btnMedicalInfo = new System.Windows.Forms.Button();
             this.bTNGenInfo = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.PanelContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1003, 82);
+            this.panel1.Size = new System.Drawing.Size(1201, 82);
             this.panel1.TabIndex = 4;
             // 
             // label1
@@ -67,92 +66,83 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.addPatientData);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
+            this.panel2.Controls.Add(this.btnLogout);
+            this.panel2.Controls.Add(this.btnTestInfo);
+            this.panel2.Controls.Add(this.btnMedicalInfo);
             this.panel2.Controls.Add(this.bTNGenInfo);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 82);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(300, 566);
+            this.panel2.Size = new System.Drawing.Size(250, 566);
             this.panel2.TabIndex = 5;
             // 
-            // addPatientData
+            // btnLogout
             // 
-            this.addPatientData.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.addPatientData.ForeColor = System.Drawing.Color.Maroon;
-            this.addPatientData.Location = new System.Drawing.Point(37, 108);
-            this.addPatientData.Name = "addPatientData";
-            this.addPatientData.Size = new System.Drawing.Size(216, 34);
-            this.addPatientData.TabIndex = 4;
-            this.addPatientData.Text = "Add Patient Data";
-            this.addPatientData.UseVisualStyleBackColor = true;
-            this.addPatientData.Click += new System.EventHandler(this.addPatientData_Click);
+            this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnLogout.ForeColor = System.Drawing.Color.Maroon;
+            this.btnLogout.Location = new System.Drawing.Point(77, 477);
+            this.btnLogout.Name = "btnLogout";
+            this.btnLogout.Size = new System.Drawing.Size(112, 34);
+            this.btnLogout.TabIndex = 3;
+            this.btnLogout.Text = "Logout";
+            this.btnLogout.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnTestInfo
             // 
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.Color.Maroon;
-            this.button4.Location = new System.Drawing.Point(77, 477);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(112, 34);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Logout";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnTestInfo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnTestInfo.ForeColor = System.Drawing.Color.Maroon;
+            this.btnTestInfo.Location = new System.Drawing.Point(51, 326);
+            this.btnTestInfo.Name = "btnTestInfo";
+            this.btnTestInfo.Size = new System.Drawing.Size(200, 34);
+            this.btnTestInfo.TabIndex = 2;
+            this.btnTestInfo.Text = "Test Information";
+            this.btnTestInfo.UseVisualStyleBackColor = true;
+            this.btnTestInfo.Click += new System.EventHandler(this.btnTestInfo_Click);
             // 
-            // button3
+            // btnMedicalInfo
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.Maroon;
-            this.button3.Location = new System.Drawing.Point(37, 369);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 34);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Test Information";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Maroon;
-            this.button2.Location = new System.Drawing.Point(37, 284);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(216, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Medical Information";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnMedicalInfo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnMedicalInfo.ForeColor = System.Drawing.Color.Maroon;
+            this.btnMedicalInfo.Location = new System.Drawing.Point(51, 194);
+            this.btnMedicalInfo.Name = "btnMedicalInfo";
+            this.btnMedicalInfo.Size = new System.Drawing.Size(216, 34);
+            this.btnMedicalInfo.TabIndex = 1;
+            this.btnMedicalInfo.Text = "Medical Information";
+            this.btnMedicalInfo.UseVisualStyleBackColor = true;
+            this.btnMedicalInfo.Click += new System.EventHandler(this.btnMedicalInfo_Click);
             // 
             // bTNGenInfo
             // 
             this.bTNGenInfo.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.bTNGenInfo.ForeColor = System.Drawing.Color.Maroon;
-            this.bTNGenInfo.Location = new System.Drawing.Point(12, 198);
+            this.bTNGenInfo.Location = new System.Drawing.Point(37, 77);
             this.bTNGenInfo.Name = "bTNGenInfo";
-            this.bTNGenInfo.Size = new System.Drawing.Size(270, 34);
+            this.bTNGenInfo.Size = new System.Drawing.Size(242, 34);
             this.bTNGenInfo.TabIndex = 0;
-            this.bTNGenInfo.Text = "Edit General Information\r\n\r\n";
+            this.bTNGenInfo.Text = "General Information\r\n\r\n";
             this.bTNGenInfo.UseVisualStyleBackColor = true;
             this.bTNGenInfo.Click += new System.EventHandler(this.bTNGenInfo_Click);
             // 
-            // flowLayoutPanel1
+            // PanelContainer
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(306, 82);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(694, 566);
-            this.flowLayoutPanel1.TabIndex = 6;
+            this.PanelContainer.Location = new System.Drawing.Point(306, 82);
+            this.PanelContainer.Name = "PanelContainer";
+            this.PanelContainer.Size = new System.Drawing.Size(883, 566);
+            this.PanelContainer.TabIndex = 6;
+            this.PanelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelContainer_Paint);
             // 
             // EditPatientDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1003, 648);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(1201, 648);
+            this.Controls.Add(this.PanelContainer);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "EditPatientDetails";
             this.Text = "Edit Patient Details";
+            this.Load += new System.EventHandler(this.EditPatientDetails_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -165,11 +155,10 @@
         private Panel panel1;
         private Label label1;
         private Panel panel2;
-        private Button button4;
-        private Button button3;
-        private Button button2;
+        private Button btnLogout;
+        private Button btnTestInfo;
+        private Button btnMedicalInfo;
         private Button bTNGenInfo;
-        private FlowLayoutPanel flowLayoutPanel1;
-        private Button addPatientData;
+        private FlowLayoutPanel PanelContainer;
     }
 }

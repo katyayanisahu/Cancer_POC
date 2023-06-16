@@ -16,5 +16,10 @@ namespace CANCER_POC
         {
             InitializeComponent();
         }
+
+        private void AddPatientData_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

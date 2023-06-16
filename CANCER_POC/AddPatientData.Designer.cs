@@ -129,6 +129,7 @@
             this.Controls.Add(this.label1);
             this.Name = "AddPatientData";
             this.Size = new System.Drawing.Size(639, 644);
+            this.Load += new System.EventHandler(this.AddPatientData_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
