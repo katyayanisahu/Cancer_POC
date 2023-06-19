@@ -104,7 +104,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(800, 93);
             this.panel1.TabIndex = 12;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+         
             // 
             // label4
             // 
@@ -117,7 +117,7 @@
             this.label4.Size = new System.Drawing.Size(265, 60);
             this.label4.TabIndex = 0;
             this.label4.Text = "LOGIN PAGE";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            
             // 
             // Login
             // 

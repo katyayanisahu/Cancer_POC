@@ -28,361 +28,306 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.vScrollBar = new System.Windows.Forms.VScrollBar();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblGeneralQuestions = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.txtboxQues5 = new System.Windows.Forms.TextBox();
+            this.lblQues5 = new System.Windows.Forms.Label();
+            this.txtboxQues4 = new System.Windows.Forms.TextBox();
+            this.lblQues4 = new System.Windows.Forms.Label();
+            this.txtboxQues3 = new System.Windows.Forms.TextBox();
+            this.txtboxQues2 = new System.Windows.Forms.TextBox();
+            this.lblQues3 = new System.Windows.Forms.Label();
+            this.lblQues2 = new System.Windows.Forms.Label();
+            this.txtboxQues1 = new System.Windows.Forms.TextBox();
+            this.btnReport = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.lblQuesHeading = new System.Windows.Forms.Label();
+            this.lblQues1 = new System.Windows.Forms.Label();
+            this.lblMedicalHistory = new System.Windows.Forms.Label();
+            this.lblMedQues1 = new System.Windows.Forms.Label();
+            this.lblMedQues2 = new System.Windows.Forms.Label();
+            this.lblMedQues3 = new System.Windows.Forms.Label();
+            this.lblMedQues4 = new System.Windows.Forms.Label();
+            this.txtboxMedQues1 = new System.Windows.Forms.TextBox();
+            this.txtboxMedQues2 = new System.Windows.Forms.TextBox();
+            this.txtboxMedQues3 = new System.Windows.Forms.TextBox();
+            this.txtboxMedQues4 = new System.Windows.Forms.TextBox();
+            this.lblGenQues = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label2
+            // txtboxQues5
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.CadetBlue;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(293, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(419, 60);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Medical Information";
+            this.txtboxQues5.Location = new System.Drawing.Point(22, 696);
+            this.txtboxQues5.Name = "txtboxQues5";
+            this.txtboxQues5.Size = new System.Drawing.Size(494, 31);
+            this.txtboxQues5.TabIndex = 52;
             // 
-            // vScrollBar
+            // lblQues5
             // 
-            this.vScrollBar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.vScrollBar.Location = new System.Drawing.Point(952, 74);
-            this.vScrollBar.Name = "vScrollBar";
-            this.vScrollBar.Size = new System.Drawing.Size(39, 1265);
-            this.vScrollBar.TabIndex = 53;
-            this.vScrollBar.Scroll += new System.Windows.Forms.ScrollEventHandler(this.vScrollBar_Scroll);
+            this.lblQues5.AutoSize = true;
+            this.lblQues5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQues5.ForeColor = System.Drawing.Color.Maroon;
+            this.lblQues5.Location = new System.Drawing.Point(22, 634);
+            this.lblQues5.Name = "lblQues5";
+            this.lblQues5.Size = new System.Drawing.Size(420, 25);
+            this.lblQues5.TabIndex = 51;
+            this.lblQues5.Text = "5 Have you been diagnosed with cancer before?";
             // 
-            // textBox5
+            // txtboxQues4
             // 
-            this.textBox5.Location = new System.Drawing.Point(22, 696);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(494, 31);
-            this.textBox5.TabIndex = 52;
+            this.txtboxQues4.Location = new System.Drawing.Point(10, 574);
+            this.txtboxQues4.Name = "txtboxQues4";
+            this.txtboxQues4.Size = new System.Drawing.Size(494, 31);
+            this.txtboxQues4.TabIndex = 50;
             // 
-            // label8
+            // lblQues4
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.Color.Maroon;
-            this.label8.Location = new System.Drawing.Point(22, 634);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(420, 25);
-            this.label8.TabIndex = 51;
-            this.label8.Text = "5 Have you been diagnosed with cancer before?";
+            this.lblQues4.AutoSize = true;
+            this.lblQues4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQues4.ForeColor = System.Drawing.Color.Maroon;
+            this.lblQues4.Location = new System.Drawing.Point(10, 528);
+            this.lblQues4.Name = "lblQues4";
+            this.lblQues4.Size = new System.Drawing.Size(492, 25);
+            this.lblQues4.TabIndex = 49;
+            this.lblQues4.Text = "4. Have you noticed any lumps or swelling in your body?";
             // 
-            // textBox4
+            // txtboxQues3
             // 
-            this.textBox4.Location = new System.Drawing.Point(10, 574);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(494, 31);
-            this.textBox4.TabIndex = 50;
+            this.txtboxQues3.Location = new System.Drawing.Point(8, 465);
+            this.txtboxQues3.Name = "txtboxQues3";
+            this.txtboxQues3.Size = new System.Drawing.Size(494, 31);
+            this.txtboxQues3.TabIndex = 48;
             // 
-            // label7
+            // txtboxQues2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.Maroon;
-            this.label7.Location = new System.Drawing.Point(10, 528);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(492, 25);
-            this.label7.TabIndex = 49;
-            this.label7.Text = "4. Have you noticed any lumps or swelling in your body?";
+            this.txtboxQues2.Location = new System.Drawing.Point(10, 349);
+            this.txtboxQues2.Name = "txtboxQues2";
+            this.txtboxQues2.Size = new System.Drawing.Size(494, 31);
+            this.txtboxQues2.TabIndex = 47;
             // 
-            // textBox3
+            // lblQues3
             // 
-            this.textBox3.Location = new System.Drawing.Point(8, 465);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(494, 31);
-            this.textBox3.TabIndex = 48;
+            this.lblQues3.AutoSize = true;
+            this.lblQues3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQues3.ForeColor = System.Drawing.Color.Maroon;
+            this.lblQues3.Location = new System.Drawing.Point(10, 405);
+            this.lblQues3.Name = "lblQues3";
+            this.lblQues3.Size = new System.Drawing.Size(593, 25);
+            this.lblQues3.TabIndex = 46;
+            this.lblQues3.Text = "3. Have you experienced any significant changes in weight recently?";
             // 
-            // textBox2
+            // lblQues2
             // 
-            this.textBox2.Location = new System.Drawing.Point(10, 349);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(494, 31);
-            this.textBox2.TabIndex = 47;
+            this.lblQues2.AutoSize = true;
+            this.lblQues2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQues2.ForeColor = System.Drawing.Color.Maroon;
+            this.lblQues2.Location = new System.Drawing.Point(10, 291);
+            this.lblQues2.Name = "lblQues2";
+            this.lblQues2.Size = new System.Drawing.Size(399, 25);
+            this.lblQues2.TabIndex = 45;
+            this.lblQues2.Text = "2. When did you first notice these symptoms?";
             // 
-            // label6
+            // txtboxQues1
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.Maroon;
-            this.label6.Location = new System.Drawing.Point(10, 405);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(593, 25);
-            this.label6.TabIndex = 46;
-            this.label6.Text = "3. Have you experienced any significant changes in weight recently?";
+            this.txtboxQues1.Location = new System.Drawing.Point(10, 247);
+            this.txtboxQues1.Name = "txtboxQues1";
+            this.txtboxQues1.Size = new System.Drawing.Size(494, 31);
+            this.txtboxQues1.TabIndex = 44;
             // 
-            // label5
+            // btnReport
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.Maroon;
-            this.label5.Location = new System.Drawing.Point(10, 291);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(399, 25);
-            this.label5.TabIndex = 45;
-            this.label5.Text = "2. When did you first notice these symptoms?";
+            this.btnReport.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnReport.ForeColor = System.Drawing.Color.Purple;
+            this.btnReport.Location = new System.Drawing.Point(188, 1287);
+            this.btnReport.Name = "btnReport";
+            this.btnReport.Size = new System.Drawing.Size(203, 34);
+            this.btnReport.TabIndex = 42;
+            this.btnReport.Text = "Generate Report";
+            this.btnReport.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // btnNext
             // 
-            this.textBox1.Location = new System.Drawing.Point(10, 247);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(494, 31);
-            this.textBox1.TabIndex = 44;
+            this.btnNext.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnNext.ForeColor = System.Drawing.Color.Purple;
+            this.btnNext.Location = new System.Drawing.Point(463, 1287);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(112, 34);
+            this.btnNext.TabIndex = 41;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
-            // button2
+            // lblQuesHeading
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Purple;
-            this.button2.Location = new System.Drawing.Point(270, 1287);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(203, 34);
-            this.button2.TabIndex = 42;
-            this.button2.Text = "Generate Report";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lblQuesHeading.AutoSize = true;
+            this.lblQuesHeading.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQuesHeading.Location = new System.Drawing.Point(10, 89);
+            this.lblQuesHeading.Name = "lblQuesHeading";
+            this.lblQuesHeading.Size = new System.Drawing.Size(551, 38);
+            this.lblQuesHeading.TabIndex = 40;
+            this.lblQuesHeading.Text = "Different Questions Asked to the Patient";
             // 
-            // button1
+            // lblQues1
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.Purple;
-            this.button1.Location = new System.Drawing.Point(569, 1287);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(112, 34);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "Next";
-            this.button1.UseVisualStyleBackColor = true;
+            this.lblQues1.AutoSize = true;
+            this.lblQues1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblQues1.ForeColor = System.Drawing.Color.Maroon;
+            this.lblQues1.Location = new System.Drawing.Point(10, 200);
+            this.lblQues1.Name = "lblQues1";
+            this.lblQues1.Size = new System.Drawing.Size(405, 25);
+            this.lblQues1.TabIndex = 43;
+            this.lblQues1.Text = "1. What are your main concerns or symptoms?";
             // 
-            // label3
+            // lblMedicalHistory
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(10, 89);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(551, 38);
-            this.label3.TabIndex = 40;
-            this.label3.Text = "Different Questions Asked to the Patient";
+            this.lblMedicalHistory.AutoSize = true;
+            this.lblMedicalHistory.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMedicalHistory.Location = new System.Drawing.Point(34, 766);
+            this.lblMedicalHistory.Name = "lblMedicalHistory";
+            this.lblMedicalHistory.Size = new System.Drawing.Size(147, 22);
+            this.lblMedicalHistory.TabIndex = 38;
+            this.lblMedicalHistory.Text = "Medical History";
             // 
-            // label4
+            // lblMedQues1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.Maroon;
-            this.label4.Location = new System.Drawing.Point(10, 200);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(405, 25);
-            this.label4.TabIndex = 43;
-            this.label4.Text = "1. What are your main concerns or symptoms?";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.CadetBlue;
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(991, 74);
-            this.panel1.TabIndex = 39;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(34, 766);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(147, 22);
-            this.label1.TabIndex = 38;
-            this.label1.Text = "Medical History";
-            // 
-            // lblGeneralQuestions
-            // 
-            this.lblGeneralQuestions.AutoSize = true;
-            this.lblGeneralQuestions.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblGeneralQuestions.Location = new System.Drawing.Point(22, 44);
-            this.lblGeneralQuestions.Name = "lblGeneralQuestions";
-            this.lblGeneralQuestions.Size = new System.Drawing.Size(168, 25);
-            this.lblGeneralQuestions.TabIndex = 37;
-            this.lblGeneralQuestions.Text = "General Questions";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Maroon;
-            this.label9.Location = new System.Drawing.Point(22, 826);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(779, 25);
-            this.label9.TabIndex = 54;
-            this.label9.Text = "1. Have you ever been treated for cancer in the past? If so, what type of cancer " +
+            this.lblMedQues1.AutoSize = true;
+            this.lblMedQues1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMedQues1.ForeColor = System.Drawing.Color.Maroon;
+            this.lblMedQues1.Location = new System.Drawing.Point(22, 826);
+            this.lblMedQues1.Name = "lblMedQues1";
+            this.lblMedQues1.Size = new System.Drawing.Size(779, 25);
+            this.lblMedQues1.TabIndex = 54;
+            this.lblMedQues1.Text = "1. Have you ever been treated for cancer in the past? If so, what type of cancer " +
     "and when?";
             // 
-            // label10
+            // lblMedQues2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.Maroon;
-            this.label10.Location = new System.Drawing.Point(22, 932);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(530, 25);
-            this.label10.TabIndex = 55;
-            this.label10.Text = "2. Have you had any previous surgeries or radiation therapy?";
+            this.lblMedQues2.AutoSize = true;
+            this.lblMedQues2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMedQues2.ForeColor = System.Drawing.Color.Maroon;
+            this.lblMedQues2.Location = new System.Drawing.Point(22, 932);
+            this.lblMedQues2.Name = "lblMedQues2";
+            this.lblMedQues2.Size = new System.Drawing.Size(530, 25);
+            this.lblMedQues2.TabIndex = 55;
+            this.lblMedQues2.Text = "2. Have you had any previous surgeries or radiation therapy?";
             // 
-            // label11
+            // lblMedQues3
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Maroon;
-            this.label11.Location = new System.Drawing.Point(22, 1064);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(671, 25);
-            this.label11.TabIndex = 56;
-            this.label11.Text = "3. Do you have any chronic medical conditions (e.g., diabetes, hypertension)?";
+            this.lblMedQues3.AutoSize = true;
+            this.lblMedQues3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMedQues3.ForeColor = System.Drawing.Color.Maroon;
+            this.lblMedQues3.Location = new System.Drawing.Point(22, 1064);
+            this.lblMedQues3.Name = "lblMedQues3";
+            this.lblMedQues3.Size = new System.Drawing.Size(671, 25);
+            this.lblMedQues3.TabIndex = 56;
+            this.lblMedQues3.Text = "3. Do you have any chronic medical conditions (e.g., diabetes, hypertension)?";
             // 
-            // label13
+            // lblMedQues4
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label13.ForeColor = System.Drawing.Color.Maroon;
-            this.label13.Location = new System.Drawing.Point(10, 1166);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(653, 25);
-            this.label13.TabIndex = 58;
-            this.label13.Text = "4. Are you currently taking any medications or undergoing any treatments?";
+            this.lblMedQues4.AutoSize = true;
+            this.lblMedQues4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblMedQues4.ForeColor = System.Drawing.Color.Maroon;
+            this.lblMedQues4.Location = new System.Drawing.Point(10, 1166);
+            this.lblMedQues4.Name = "lblMedQues4";
+            this.lblMedQues4.Size = new System.Drawing.Size(653, 25);
+            this.lblMedQues4.TabIndex = 58;
+            this.lblMedQues4.Text = "4. Are you currently taking any medications or undergoing any treatments?";
             // 
-            // textBox6
+            // txtboxMedQues1
             // 
-            this.textBox6.Location = new System.Drawing.Point(22, 883);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(494, 31);
-            this.textBox6.TabIndex = 59;
+            this.txtboxMedQues1.Location = new System.Drawing.Point(22, 883);
+            this.txtboxMedQues1.Name = "txtboxMedQues1";
+            this.txtboxMedQues1.Size = new System.Drawing.Size(494, 31);
+            this.txtboxMedQues1.TabIndex = 59;
             // 
-            // textBox7
+            // txtboxMedQues2
             // 
-            this.textBox7.Location = new System.Drawing.Point(22, 1000);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(494, 31);
-            this.textBox7.TabIndex = 60;
+            this.txtboxMedQues2.Location = new System.Drawing.Point(22, 1000);
+            this.txtboxMedQues2.Name = "txtboxMedQues2";
+            this.txtboxMedQues2.Size = new System.Drawing.Size(494, 31);
+            this.txtboxMedQues2.TabIndex = 60;
             // 
-            // textBox8
+            // txtboxMedQues3
             // 
-            this.textBox8.Location = new System.Drawing.Point(22, 1109);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(494, 31);
-            this.textBox8.TabIndex = 61;
+            this.txtboxMedQues3.Location = new System.Drawing.Point(22, 1109);
+            this.txtboxMedQues3.Name = "txtboxMedQues3";
+            this.txtboxMedQues3.Size = new System.Drawing.Size(494, 31);
+            this.txtboxMedQues3.TabIndex = 61;
             // 
-            // textBox9
+            // txtboxMedQues4
             // 
-            this.textBox9.Location = new System.Drawing.Point(22, 1220);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(494, 31);
-            this.textBox9.TabIndex = 62;
+            this.txtboxMedQues4.Location = new System.Drawing.Point(22, 1220);
+            this.txtboxMedQues4.Name = "txtboxMedQues4";
+            this.txtboxMedQues4.Size = new System.Drawing.Size(494, 31);
+            this.txtboxMedQues4.TabIndex = 62;
             // 
-            // label12
+            // lblGenQues
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label12.Location = new System.Drawing.Point(22, 150);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(168, 25);
-            this.label12.TabIndex = 63;
-            this.label12.Text = "General Questions";
+            this.lblGenQues.AutoSize = true;
+            this.lblGenQues.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblGenQues.Location = new System.Drawing.Point(22, 150);
+            this.lblGenQues.Name = "lblGenQues";
+            this.lblGenQues.Size = new System.Drawing.Size(168, 25);
+            this.lblGenQues.TabIndex = 63;
+            this.lblGenQues.Text = "General Questions";
             // 
             // MedicalInformation1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.vScrollBar);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblGeneralQuestions);
+            this.Controls.Add(this.lblGenQues);
+            this.Controls.Add(this.txtboxMedQues4);
+            this.Controls.Add(this.txtboxMedQues3);
+            this.Controls.Add(this.txtboxMedQues2);
+            this.Controls.Add(this.txtboxMedQues1);
+            this.Controls.Add(this.lblMedQues4);
+            this.Controls.Add(this.lblMedQues3);
+            this.Controls.Add(this.lblMedQues2);
+            this.Controls.Add(this.lblMedQues1);
+            this.Controls.Add(this.txtboxQues5);
+            this.Controls.Add(this.lblQues5);
+            this.Controls.Add(this.txtboxQues4);
+            this.Controls.Add(this.lblQues4);
+            this.Controls.Add(this.txtboxQues3);
+            this.Controls.Add(this.txtboxQues2);
+            this.Controls.Add(this.lblQues3);
+            this.Controls.Add(this.lblQues2);
+            this.Controls.Add(this.txtboxQues1);
+            this.Controls.Add(this.btnReport);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.lblQuesHeading);
+            this.Controls.Add(this.lblQues1);
+            this.Controls.Add(this.lblMedicalHistory);
             this.Name = "MedicalInformation1";
-            this.Size = new System.Drawing.Size(991, 1339);
+            this.Size = new System.Drawing.Size(865, 1339);
             this.Load += new System.EventHandler(this.MedicalInformation1_Load);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private Label label2;
-        private VScrollBar vScrollBar;
-        private TextBox textBox5;
-        private Label label8;
-        private TextBox textBox4;
-        private Label label7;
-        private TextBox textBox3;
-        private TextBox textBox2;
-        private Label label6;
-        private Label label5;
-        private TextBox textBox1;
-        private Button button2;
-        private Button button1;
-        private Label label3;
-        private Label label4;
-        private Panel panel1;
-        private Label label1;
-        private Label lblGeneralQuestions;
-        private Label label9;
-        private Label label10;
-        private Label label11;
-        private Label label13;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private TextBox textBox9;
-        private Label label12;
+        private TextBox txtboxQues5;
+        private Label lblQues5;
+        private TextBox txtboxQues4;
+        private Label lblQues4;
+        private TextBox txtboxQues3;
+        private TextBox txtboxQues2;
+        private Label lblQues3;
+        private Label lblQues2;
+        private TextBox txtboxQues1;
+        private Button btnReport;
+        private Button btnNext;
+        private Label lblQuesHeading;
+        private Label lblQues1;
+        private Label lblMedicalHistory;
+        private Label lblMedQues1;
+        private Label lblMedQues2;
+        private Label lblMedQues3;
+        private Label lblMedQues4;
+        private TextBox txtboxMedQues1;
+        private TextBox txtboxMedQues2;
+        private TextBox txtboxMedQues3;
+        private TextBox txtboxMedQues4;
+        private Label lblGenQues;
     }
 }

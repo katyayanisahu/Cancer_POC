@@ -22,20 +22,15 @@ namespace CANCER_POC
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+      
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            EditPatientDetails d = new EditPatientDetails();         
-            d.Show();
+            Dashboard dashboard = new Dashboard();
+            dashboard.Show();
+            
+            //EditPatientDetails d = new EditPatientDetails();         
+            //d.Show();
 
        
         }

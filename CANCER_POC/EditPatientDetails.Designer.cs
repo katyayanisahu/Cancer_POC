@@ -56,12 +56,11 @@
             this.label1.BackColor = System.Drawing.Color.CadetBlue;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(253, 9);
+            this.label1.Location = new System.Drawing.Point(387, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(354, 60);
             this.label1.TabIndex = 0;
             this.label1.Text = "PATIENT DETAILS";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel2
             // 
@@ -130,7 +129,7 @@
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(901, 566);
             this.panelContainer.TabIndex = 6;
-            this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint_1);
+          
             // 
             // EditPatientDetails
             // 

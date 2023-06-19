@@ -17,32 +17,28 @@ namespace CANCER_POC
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+ 
+      
         private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddPatient_Click(object sender, EventArgs e)
+        {
+           EditPatientDetails ti = new EditPatientDetails();
+           ti.Show();
+
+
+
+        }
+
+        private void dgvDashboard_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
