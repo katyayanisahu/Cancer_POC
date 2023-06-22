@@ -31,7 +31,8 @@ namespace CANCER_POC
 
         private void btnAddPatient_Click(object sender, EventArgs e)
         {
-           EditPatientDetails ti = new EditPatientDetails();
+            this.Hide();
+           PatientDetails ti = new PatientDetails();
            ti.Show();
 
 

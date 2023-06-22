@@ -1,24 +1,18 @@
 ﻿namespace CANCER_POC
 {
-    public partial class EditPatientDetails : Form
+    public partial class PatientDetails : Form
     {
         private GeneralInformation gi = new GeneralInformation();
-        private MedicalInformation1 mi = new MedicalInformation1();
+        private MedicalQuestionarie mq = new MedicalQuestionarie();
         private TestInformation ti = new TestInformation();
 
-        public EditPatientDetails()
+        public PatientDetails()
         {
             InitializeComponent();
-            //this.AutoScroll= true;
+            this.AutoScroll= true;
         }
 
-      
-        private void lblGenInfo_Click(object sender, EventArgs e)
-        {
-           
-        }
-
-
+    
         private void bTNGenInfo_Click(object sender, EventArgs e)
         {
             panelContainer.Controls.Clear();
@@ -27,16 +21,11 @@
 
         }
 
-        private void addPatientData_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnMedicalInfo_Click(object sender, EventArgs e)
         {
             panelContainer.Controls.Clear();
             this.gi.Dock = DockStyle.Fill;
-            panelContainer.Controls.Add(mi);
+            panelContainer.Controls.Add(mq);
 
         }
 
@@ -47,11 +36,6 @@
             panelContainer.Controls.Add(ti);
         }
 
-        private void EditPatientDetails_Load(object sender, EventArgs e)
-        {
-
-        }
-
-      
+     
     }
 }

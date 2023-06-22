@@ -8,16 +8,7 @@ namespace CANCER_POC
     public partial class GeneralInformation : UserControl
     {
         SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-BH77SS1\SQLEXPRESS01;Initial Catalog=cancer_poc;Integrated Security=True");
-        //private object dgvDashboard;
-
-        //Dashboard fgrid;
-        //public GeneralInformation(Dashboard fg)
-        //{
-        //    InitializeComponent();
-        //    this.fgrid= fg;
-        //}
-
-
+   
         public GeneralInformation()
         {
             InitializeComponent();
@@ -28,12 +19,11 @@ namespace CANCER_POC
         public void disp_data()
         {
             SqlCommand cmd = con.CreateCommand();
-            cmd.CommandText = "select * from  general_information";
+            cmd.CommandText = "select * from  general_information1";
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-                    
-            //dgvDashboard.DataSource = dt;
+        
         }
 
 
@@ -44,7 +34,7 @@ namespace CANCER_POC
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string query = "INSERT INTO general_information VALUES(@name,@age,@dob,@gender,@address,@phone,@email)";
+            string query = "INSERT INTO general_information1 VALUES(@name,@age,@dob,@gender,@address,@phone,@email)";
 
             SqlCommand cmd2 = new SqlCommand(query, con);
 
@@ -87,18 +77,6 @@ namespace CANCER_POC
             }
             cmd2.Parameters.AddWithValue("@phone", txtboxPhone.Text);
 
-            //Regex regex = new Regex("^[0-9]{10}");
-            //if (!regex.IsMatch(txtboxPhone.Text.Trim()))
-            //{
-            //    errorProviderPhone.SetError(this.txtboxPhone, "Plzz provide valid Phone no");
-            //}
-            //else
-            //{
-            //    errorProviderPhone.Clear();
-            //}
-
-
-
             cmd2.Parameters.AddWithValue("@email", txtboxEmail.Text);       
 
             
@@ -111,11 +89,7 @@ namespace CANCER_POC
                 errorProviderEmail.Clear();
             }
 
-            //fgrid.dgvDashboard.Rows.Add(txt);
-
-            //Dashboard dashboard = new Dashboard();
-            //dashboard.Show();
-
+          
             try
             {
                 con.Open();
@@ -131,23 +105,17 @@ namespace CANCER_POC
             finally
             {
                 con.Close();
-            }
-
-          
-
-
-        }
-
-        private void txtboxPhone_TextChanged(object sender, EventArgs e)
-        {
+            }  
 
         }
 
         private void txtboxPhone_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!char.IsNumber(e.KeyChar) & (Keys)e.KeyChar != Keys.Back & e.KeyChar != ('+'))
+            Regex regex = new Regex("^[0-9]{10}$");
+            if (regex.IsMatch(txtboxPhone.Text))
             {
                 e.Handled = true;
+
             }
 
         }
@@ -168,10 +136,7 @@ namespace CANCER_POC
             }
         }
 
-        private void txtboxEmail_KeyPress(object sender, KeyPressEventArgs e)
-        {
-
-        }
+      
 
         private void txtboxEmail_TextChanged(object sender, EventArgs e)
         {
@@ -186,6 +151,11 @@ namespace CANCER_POC
             {
                 errorProviderEmail.SetError(this.txtboxEmail, "Plzz provide valid email address");
             }
+        }
+
+        private void txtboxPhone_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
    

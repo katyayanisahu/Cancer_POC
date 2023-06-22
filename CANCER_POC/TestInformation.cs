@@ -32,5 +32,16 @@ namespace CANCER_POC
         {
 
         }
+
+        private void cmbboxTesttypes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //MessageBox.Show(cmbboxTesttypes.SelectedIndex.ToString());
+            if (cmbboxTesttypes.SelectedIndex == 0)
+            {
+                BloodTest bt = new BloodTest();
+                bt.Dock = DockStyle.Fill;
+                panelContainer.Controls.Add(bt);
+            }
+        }
     }
 }

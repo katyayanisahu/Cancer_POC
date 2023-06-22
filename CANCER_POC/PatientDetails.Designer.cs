@@ -1,6 +1,6 @@
 ﻿namespace CANCER_POC
 {
-    partial class EditPatientDetails
+    partial class PatientDetails
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1201, 82);
+            this.panel1.Size = new System.Drawing.Size(1483, 82);
             this.panel1.TabIndex = 4;
             // 
             // label1
@@ -56,11 +56,12 @@
             this.label1.BackColor = System.Drawing.Color.CadetBlue;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(387, 9);
+            this.label1.Location = new System.Drawing.Point(572, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(354, 60);
             this.label1.TabIndex = 0;
             this.label1.Text = "PATIENT DETAILS";
+         
             // 
             // panel2
             // 
@@ -72,7 +73,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 82);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(300, 566);
+            this.panel2.Size = new System.Drawing.Size(300, 705);
             this.panel2.TabIndex = 5;
             // 
             // btnLogout
@@ -127,22 +128,21 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(300, 82);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(901, 566);
+            this.panelContainer.Size = new System.Drawing.Size(1183, 705);
             this.panelContainer.TabIndex = 6;
           
             // 
-            // EditPatientDetails
+            // PatientDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1201, 648);
+            this.ClientSize = new System.Drawing.Size(1483, 787);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Name = "EditPatientDetails";
-            this.Text = "Edit Patient Details";
-            this.Load += new System.EventHandler(this.EditPatientDetails_Load);
+            this.Name = "PatientDetails";
+            this.Text = "Patient Details";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

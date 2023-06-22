@@ -39,7 +39,6 @@
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblemail = new System.Windows.Forms.Label();
             this.txtboxAge = new System.Windows.Forms.TextBox();
-            this.txtboxPhone = new System.Windows.Forms.TextBox();
             this.txtboxAddress = new System.Windows.Forms.TextBox();
             this.txtboxEmail = new System.Windows.Forms.TextBox();
             this.rdbMale = new System.Windows.Forms.RadioButton();
@@ -50,6 +49,8 @@
             this.errorProviderAddress = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProviderPhone = new System.Windows.Forms.ErrorProvider(this.components);
             this.errorProviderEmail = new System.Windows.Forms.ErrorProvider(this.components);
+            this.txtboxPhone = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderName)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderAge)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderAddress)).BeginInit();
@@ -62,7 +63,7 @@
             this.lblName.AutoSize = true;
             this.lblName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblName.ForeColor = System.Drawing.Color.Maroon;
-            this.lblName.Location = new System.Drawing.Point(75, 98);
+            this.lblName.Location = new System.Drawing.Point(78, 186);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(62, 25);
             this.lblName.TabIndex = 5;
@@ -72,9 +73,9 @@
             // 
             this.txtboxName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtboxName.ForeColor = System.Drawing.Color.Maroon;
-            this.txtboxName.Location = new System.Drawing.Point(185, 98);
+            this.txtboxName.Location = new System.Drawing.Point(207, 186);
             this.txtboxName.Name = "txtboxName";
-            this.txtboxName.Size = new System.Drawing.Size(150, 31);
+            this.txtboxName.Size = new System.Drawing.Size(187, 31);
             this.txtboxName.TabIndex = 6;
             this.txtboxName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxName_KeyPress);
             // 
@@ -82,7 +83,7 @@
             // 
             this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSave.ForeColor = System.Drawing.Color.Purple;
-            this.btnSave.Location = new System.Drawing.Point(319, 438);
+            this.btnSave.Location = new System.Drawing.Point(392, 549);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(112, 34);
             this.btnSave.TabIndex = 7;
@@ -95,7 +96,7 @@
             this.lbldob.AutoSize = true;
             this.lbldob.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbldob.ForeColor = System.Drawing.Color.Maroon;
-            this.lbldob.Location = new System.Drawing.Point(77, 265);
+            this.lbldob.Location = new System.Drawing.Point(77, 377);
             this.lbldob.Name = "lbldob";
             this.lbldob.Size = new System.Drawing.Size(47, 25);
             this.lbldob.TabIndex = 10;
@@ -106,7 +107,7 @@
             this.lblgender.AutoSize = true;
             this.lblgender.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblgender.ForeColor = System.Drawing.Color.Maroon;
-            this.lblgender.Location = new System.Drawing.Point(77, 338);
+            this.lblgender.Location = new System.Drawing.Point(77, 462);
             this.lblgender.Name = "lblgender";
             this.lblgender.Size = new System.Drawing.Size(74, 25);
             this.lblgender.TabIndex = 11;
@@ -117,7 +118,7 @@
             this.lbladdress.AutoSize = true;
             this.lbladdress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbladdress.ForeColor = System.Drawing.Color.Maroon;
-            this.lbladdress.Location = new System.Drawing.Point(407, 104);
+            this.lbladdress.Location = new System.Drawing.Point(546, 192);
             this.lbladdress.Name = "lbladdress";
             this.lbladdress.Size = new System.Drawing.Size(80, 25);
             this.lbladdress.TabIndex = 12;
@@ -128,7 +129,7 @@
             this.lblAge.AutoSize = true;
             this.lblAge.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblAge.ForeColor = System.Drawing.Color.Maroon;
-            this.lblAge.Location = new System.Drawing.Point(77, 178);
+            this.lblAge.Location = new System.Drawing.Point(77, 278);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(46, 25);
             this.lblAge.TabIndex = 13;
@@ -139,7 +140,7 @@
             this.lblPhone.AutoSize = true;
             this.lblPhone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblPhone.ForeColor = System.Drawing.Color.Maroon;
-            this.lblPhone.Location = new System.Drawing.Point(418, 181);
+            this.lblPhone.Location = new System.Drawing.Point(546, 284);
             this.lblPhone.Name = "lblPhone";
             this.lblPhone.Size = new System.Drawing.Size(66, 25);
             this.lblPhone.TabIndex = 14;
@@ -150,7 +151,7 @@
             this.lblemail.AutoSize = true;
             this.lblemail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblemail.ForeColor = System.Drawing.Color.Maroon;
-            this.lblemail.Location = new System.Drawing.Point(426, 268);
+            this.lblemail.Location = new System.Drawing.Point(546, 374);
             this.lblemail.Name = "lblemail";
             this.lblemail.Size = new System.Drawing.Size(58, 25);
             this.lblemail.TabIndex = 15;
@@ -160,28 +161,17 @@
             // 
             this.txtboxAge.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtboxAge.ForeColor = System.Drawing.Color.Maroon;
-            this.txtboxAge.Location = new System.Drawing.Point(185, 178);
+            this.txtboxAge.Location = new System.Drawing.Point(207, 278);
             this.txtboxAge.Name = "txtboxAge";
-            this.txtboxAge.Size = new System.Drawing.Size(150, 31);
+            this.txtboxAge.Size = new System.Drawing.Size(187, 31);
             this.txtboxAge.TabIndex = 16;
             this.txtboxAge.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxAge_KeyPress);
-            // 
-            // txtboxPhone
-            // 
-            this.txtboxPhone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtboxPhone.ForeColor = System.Drawing.Color.Maroon;
-            this.txtboxPhone.Location = new System.Drawing.Point(532, 181);
-            this.txtboxPhone.Name = "txtboxPhone";
-            this.txtboxPhone.Size = new System.Drawing.Size(150, 31);
-            this.txtboxPhone.TabIndex = 17;
-            this.txtboxPhone.TextChanged += new System.EventHandler(this.txtboxPhone_TextChanged);
-            this.txtboxPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxPhone_KeyPress);
             // 
             // txtboxAddress
             // 
             this.txtboxAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtboxAddress.ForeColor = System.Drawing.Color.Maroon;
-            this.txtboxAddress.Location = new System.Drawing.Point(532, 104);
+            this.txtboxAddress.Location = new System.Drawing.Point(677, 183);
             this.txtboxAddress.Name = "txtboxAddress";
             this.txtboxAddress.Size = new System.Drawing.Size(150, 31);
             this.txtboxAddress.TabIndex = 18;
@@ -190,18 +180,17 @@
             // 
             this.txtboxEmail.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtboxEmail.ForeColor = System.Drawing.Color.Maroon;
-            this.txtboxEmail.Location = new System.Drawing.Point(532, 268);
+            this.txtboxEmail.Location = new System.Drawing.Point(677, 371);
             this.txtboxEmail.Name = "txtboxEmail";
             this.txtboxEmail.Size = new System.Drawing.Size(150, 31);
             this.txtboxEmail.TabIndex = 21;
             this.txtboxEmail.TextChanged += new System.EventHandler(this.txtboxEmail_TextChanged);
-        
             // 
             // rdbMale
             // 
             this.rdbMale.AutoSize = true;
             this.rdbMale.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.rdbMale.Location = new System.Drawing.Point(194, 338);
+            this.rdbMale.Location = new System.Drawing.Point(207, 458);
             this.rdbMale.Name = "rdbMale";
             this.rdbMale.Size = new System.Drawing.Size(75, 29);
             this.rdbMale.TabIndex = 22;
@@ -212,7 +201,7 @@
             // rdbFemale
             // 
             this.rdbFemale.AutoSize = true;
-            this.rdbFemale.Location = new System.Drawing.Point(305, 336);
+            this.rdbFemale.Location = new System.Drawing.Point(318, 458);
             this.rdbFemale.Name = "rdbFemale";
             this.rdbFemale.Size = new System.Drawing.Size(93, 29);
             this.rdbFemale.TabIndex = 23;
@@ -222,7 +211,7 @@
             // 
             // dtpDOB
             // 
-            this.dtpDOB.Location = new System.Drawing.Point(175, 263);
+            this.dtpDOB.Location = new System.Drawing.Point(207, 377);
             this.dtpDOB.Name = "dtpDOB";
             this.dtpDOB.Size = new System.Drawing.Size(187, 31);
             this.dtpDOB.TabIndex = 24;
@@ -247,17 +236,40 @@
             // 
             this.errorProviderEmail.ContainerControl = this;
             // 
+            // txtboxPhone
+            // 
+            this.txtboxPhone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtboxPhone.ForeColor = System.Drawing.Color.Maroon;
+            this.txtboxPhone.Location = new System.Drawing.Point(677, 278);
+            this.txtboxPhone.Name = "txtboxPhone";
+            this.txtboxPhone.Size = new System.Drawing.Size(150, 31);
+            this.txtboxPhone.TabIndex = 25;
+            this.txtboxPhone.TextChanged += new System.EventHandler(this.txtboxPhone_TextChanged);
+            this.txtboxPhone.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxPhone_KeyPress);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.label1.Location = new System.Drawing.Point(77, 69);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(493, 54);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "GENERAL INFORMATION";
+            // 
             // GeneralInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtboxPhone);
             this.Controls.Add(this.dtpDOB);
             this.Controls.Add(this.rdbFemale);
             this.Controls.Add(this.rdbMale);
             this.Controls.Add(this.txtboxEmail);
             this.Controls.Add(this.txtboxAddress);
-            this.Controls.Add(this.txtboxPhone);
             this.Controls.Add(this.txtboxAge);
             this.Controls.Add(this.lblemail);
             this.Controls.Add(this.lblPhone);
@@ -269,7 +281,7 @@
             this.Controls.Add(this.txtboxName);
             this.Controls.Add(this.lblName);
             this.Name = "GeneralInformation";
-            this.Size = new System.Drawing.Size(745, 565);
+            this.Size = new System.Drawing.Size(954, 639);
             this.Load += new System.EventHandler(this.GeneralInformation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderName)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProviderAge)).EndInit();
@@ -292,7 +304,6 @@
         private Label lblPhone;
         private Label lblemail;
         private TextBox txtboxAge;
-        private TextBox txtboxPhone;
         private TextBox txtboxAddress;
         private TextBox txtboxEmail;
         private RadioButton rdbMale;
@@ -303,5 +314,7 @@
         private ErrorProvider errorProviderAddress;
         private ErrorProvider errorProviderPhone;
         private ErrorProvider errorProviderEmail;
+        private TextBox txtboxPhone;
+        private Label label1;
     }
 }
